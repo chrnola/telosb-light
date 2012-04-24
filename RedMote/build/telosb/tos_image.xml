@@ -1,11 +1,11 @@
 <tos_image>
   <ident>
-    <uidhash>97BD6EBBL</uidhash>
+    <uidhash>F4F7902CL</uidhash>
     <hostname>xubuntos-tinyos</hostname>
     <username>xubuntos</username>
     <appname>LightSensorRedA</appname>
     <userhash>00F95284L</userhash>
-    <timestamp>4F930BAEL</timestamp>
+    <timestamp>4F95B744L</timestamp>
     <deluge_support>no</deluge_support>
     <platform>telosb</platform>
   </ident>

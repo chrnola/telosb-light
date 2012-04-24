@@ -1,0 +1,17 @@
+Regarding the logger program, you must properly 
+set the MOTECOM variable before running.
+
+For example:
+	export MOTECOM=serial@/dev/ttyUSB0:telosb
+
+Where '/dev/ttyUSB0' is the the mote's mount point (this
+can be found by executing the 'motelist' command that is
+included with TinyOS).
+
+Once the MOTECOM variable is set, you can start the logger with:
+
+	java -jar logger.jar
+
+from the same directory. The program will begin to listen for
+state changes coming from the red mote which should be connected
+serially.
